@@ -1,4 +1,4 @@
 # EnvioWhatsApp
 WhatsApp Automatizado: Creando una herramienta personalizada para tus mensajes
 
-Uso del script: enviar_mensaje [opciones] <contacto/número> <mensaje>
+   enviar_mensaje +1234567890 "Hola, este es un mensaje de prueba!"
