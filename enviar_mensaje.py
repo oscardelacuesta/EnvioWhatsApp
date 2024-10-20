@@ -25,7 +25,7 @@ def mostrar_ayuda():
 
     Argumentos:
     <contacto/número>    Puede ser el nombre del contacto guardado en WhatsApp o un número de teléfono con el código de país.
-                        Ejemplo de número: 1234567890 (sin el símbolo '+').
+                        Ejemplo de número: +1234567890 (sin el símbolo '+').
     <mensaje>            El texto del mensaje que se enviará al contacto o número de teléfono especificado.
 
     Ejemplos de uso:
@@ -33,7 +33,7 @@ def mostrar_ayuda():
        enviar_mensaje "Nombre del Contacto" "Hola, este es un mensaje de prueba!"
     
     2. Enviar un mensaje a un número de teléfono:
-       enviar_mensaje 1234567890 "Hola, este es un mensaje de prueba!"
+       enviar_mensaje +1234567890 "Hola, este es un mensaje de prueba!"
     """)
 
 # Función para enviar el mensaje
